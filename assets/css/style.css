@@ -213,9 +213,10 @@ h1 + p {
   color: #a0a0a0;
 }
 .imgLine {
-  width: 963px;
   position: absolute;
-  top: 216px;
+}
+.divFirst {
+  position: relative;
 }
 
 @media screen and (max-width: 499px) {
@@ -230,9 +231,9 @@ h1 + p {
     font-weight: 700;
   }
   .imgLine {
-    width: 350px;
+    width: 100%;
     position: absolute;
-    top: 410px;
+    bottom: -15px;
   }
 }
 
@@ -252,9 +253,9 @@ h1 + p {
     font-weight: 700;
   }
   .imgLine {
-    width: 400px;
+    width: 100%;
     position: absolute;
-    top: 410px;
+    bottom: -15px;
   }
 }
 
@@ -263,9 +264,9 @@ h1 + p {
     font-size: 3.6rem;
   }
   .imgLine {
-    width: 500px;
+    width: 100%;
     position: absolute;
-    top: 435px;
+    bottom: -43px;
   }
 }
 
@@ -275,6 +276,11 @@ h1 + p {
   }
   section {
     border-radius: 20px;
+  }
+  .imgLine {
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
   }
 }
 
